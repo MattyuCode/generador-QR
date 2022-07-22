@@ -6,7 +6,7 @@ let container = document.querySelector(".contenedor"),
     img = document.querySelector("img");
 
 
-boton.addEventListener('click', () => {
+boton.addEventListener("click", () => {
     let qrValue = qrInput.value;
 
     if (!qrValue) return;
